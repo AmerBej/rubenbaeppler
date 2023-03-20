@@ -1,0 +1,124 @@
+html{
+  background-color: black;
+  color: white;
+}
+*{margin: 0;}
+.uberschrift{
+  font-size: 70px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.unter__uberschrift{
+  font-size:20px;
+  padding: 10px;
+}
+.titel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.credits__uberschrift{
+  font-size: 50px;
+  text-align: center;
+}
+.credits__container{
+
+}
+.credits__einzeln_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center;
+  
+
+}
+.desc__song{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+.credits__position{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.home__container_full{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.anschrift__container_full{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.anschrift{
+  text-align: center;
+  font-size: 50px;
+
+}
+.credits__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.instagram{
+  display: flex;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.instagram:hover{
+  opacity: .5;
+  cursor: pointer;
+}
+.background__image{
+  background-image: url(./images/gagarin.png);
+  position:relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+}
+.background__image1{
+  background-image: url(./images/frannie.png);
+  position:relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+}
+.background__image2{
+  background-image: url(./images/icebreaker.png);
+  position:relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+}
+
+.playIcon{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+.playIcon:hover{
+  opacity: .5;
+  cursor: pointer;
+  transition: .2s;
+}
+.linkInstagram{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
